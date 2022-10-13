@@ -10,7 +10,7 @@ Feature: user logs-in the web page with valid credentials
     And driver clicks the login page
     Then driver can see "Quick Launchpat" text
 
-  @wip2
+  @wip2 @regression
   Scenario Outline: store manager or sales manager enter credentials
 
     When storemanager or sales manager enter username as "<username>"
